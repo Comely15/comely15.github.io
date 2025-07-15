@@ -5,4 +5,5 @@ permalink: /categories/flutter/
 category: Flutter
 entries_layout: list
 paginate: true
+author_profile: true
 ---
