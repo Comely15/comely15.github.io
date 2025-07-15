@@ -17,11 +17,11 @@ minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Site Title"
+title                    : "Joy's Tech Stack"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Joy"
-description              : "An amazing website."
+description              : "커피 ☕️ 와 AI로 버티는 개발자 Joy의 기술 블로그. 99개의 버그를 잡으면 127개가 생기는 마법 같은 개발 일상"
 url                      : "https://comely15.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "Comely15/comely15.github.io"
@@ -113,8 +113,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  name             : "Joy"
+  avatar           : "/assets/images/logo.jpg"
   bio              : "I am an **amazing** person."
   location         : "Somewhere"
   email            :
