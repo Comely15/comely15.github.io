@@ -1,6 +1,5 @@
-{% if page.author_profile or layout.author_profile or page.sidebar %}
-  <div class="sidebar sticky">
-    <!-- navigation.yml에서 가져온 네비게이션 -->
-    {% include nav_list nav=page.sidebar.nav %}
-  </div>
-{% endif %}
+<div class="sidebar sticky">
+  <!-- navigation.yml에서 가져온 네비게이션 -->
+  {% include nav_list nav=page.sidebar.nav %}
+</div>
+
