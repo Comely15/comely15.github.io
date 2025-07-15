@@ -2,7 +2,7 @@
 title: Flutter
 layout: category
 permalink: /categories/flutter/
-category: Flutter
+category: flutter
 entries_layout: list
 paginate: true
 author_profile: true
