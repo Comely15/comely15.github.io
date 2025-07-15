@@ -1,48 +1,11 @@
 {% if page.author_profile or layout.author_profile or page.sidebar %}
   <div class="sidebar sticky">
-    <div class="author__avatar">
-      {% if site.author.avatar contains "://" %}
-        <img src="{{ site.author.avatar }}" alt="{{ site.author.name }}">
-      {% else %}
-        <img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}">
-      {% endif %}
-    </div>
-    
     <div class="author__content">
       <h3 class="author__name">{{ site.author.name }}</h3>
       <p class="author__bio">{{ site.author.bio }}</p>
     </div>
     
-    <!-- 카테고리 목록 -->
-    <div class="sidebar__categories">  
-      <!-- App Development -->
-      <div class="category-group">
-        <h5>App</h5>
-        <ul>
-          <li><a href="{{ site.baseurl }}/categories/flutter/">Flutter</a></li>
-          <li><a href="{{ site.baseurl }}/categories/kotlin/">Kotlin</a></li>
-          <li><a href="{{ site.baseurl }}/categories/ui-ux/">UI/UX Design</a></li>
-        </ul>
-      </div>
-      
-      <!-- Server Development -->
-      <div class="category-group">
-        <h5>Server</h5>
-        <ul>
-          <li><a href="{{ site.baseurl }}/categories/spring/">Spring Boot</a></li>
-          <li><a href="{{ site.baseurl }}/categories/database/">Database</a></li>
-        </ul>
-      </div>
-      
-      <!-- Web Development -->
-      <div class="category-group">
-        <h5>Web</h5>
-        <ul>
-          <li><a href="{{ site.baseurl }}/categories/typescript/">TypeScript</a></li>
-          <li><a href="{{ site.baseurl }}/categories/react/">React</a></li>
-          <li><a href="{{ site.baseurl }}/categories/nodejs/">Node.js</a></li>
-        </ul>
-      </div>
-    </div>
+    <!-- navigation.yml에서 가져온 네비게이션 -->
+    {% include nav_list nav=page.sidebar.nav %}
   </div>
 {% endif %}
