@@ -304,3 +304,11 @@ defaults:
       sidebar:
         nav: "docs"
         enabled: true
+
+  - scope:
+      path: ""
+      type: pages
+    values:
+      sidebar:
+        nav: "docs"
+        enabled: true
