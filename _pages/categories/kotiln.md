@@ -6,4 +6,6 @@ category: kotlin
 entries_layout: list
 paginate: true
 author_profile: true
+sidebar:
+  nav: "docs"
 ---
