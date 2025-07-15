@@ -1,8 +1,9 @@
 ---
 layout: single
-title: "두번째 포스트"
+title: 두번째 포스트
 date: 2025-07-15
-categories: blog
+categories:
+  - Flutter
 ---
 
 
