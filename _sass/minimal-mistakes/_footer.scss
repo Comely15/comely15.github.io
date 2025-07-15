@@ -1,13 +1,9 @@
-/* ==========================================================================
-   FOOTER
-   ========================================================================== */
-
 .page__footer {
   @include clearfix;
   float: inline-start;
   margin-inline: 0;
   width: 100%;
-  margin-top: 3em;
+  margin-top: 1.5em; // 🔽 기존 3em → 1.5em
   color: $muted-text-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
@@ -18,9 +14,9 @@
   footer {
     @include clearfix;
     margin-inline: auto;
-    margin-top: 2em;
+    margin-top: 1em; // 🔽 기존 2em → 1em
     max-width: 100%;
-    padding: 0 1em 2em;
+    padding: 0 1em 1em; // 🔽 아래쪽 padding 줄임
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -47,6 +43,7 @@
 .page__footer-copyright {
   font-family: $global-font-family;
   font-size: $type-size-7;
+  margin-top: 0.5em; // 🔽 추가해서 여백 축소
 }
 
 .page__footer-follow {
@@ -58,20 +55,20 @@
 
   li {
     display: inline-block;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 2px;  // 🔽 기존 5px → 2px
+    padding-bottom: 2px;
     font-family: $sans-serif-narrow;
-    font-size: $type-size-6;
+    font-size: $type-size-7; // 🔽 기존 $type-size-6 → 작게
     text-transform: uppercase;
   }
 
   li + li::before {
     content: "";
-    padding-inline-end: 5px;
+    padding-inline-end: 3px; // 🔽 간격도 살짝 줄임
   }
 
   a {
-    padding-inline-end: 10px;
+    padding-inline-end: 6px; // 🔽 패딩 줄임
     font-weight: bold;
   }
 
