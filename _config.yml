@@ -23,8 +23,8 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : "Joy"
 description              : "기록은 성장의 발자국"
 url                      : "https://comely15.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+baseurl                  : "/blog"
+repository               : "Comely15/comely15.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
