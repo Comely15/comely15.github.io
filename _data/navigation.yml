@@ -5,27 +5,21 @@ main:
     url: /about/
 
 docs:
-  - title: App Development
+  - title: App
     children:
       - title: "Flutter"
         url: /categories/flutter/
       - title: "Kotlin"
         url: /categories/kotlin/
-      - title: "Mobile Architecture"
-        url: /categories/mobile-architecture/
       - title: "UI/UX Design"
         url: /categories/ui-ux/
-  - title: Server Development
+  - title: Server
     children:
-      - title: "Spring Framework"
+      - title: "Spring"
         url: /categories/spring/
-      - title: "Spring Boot"
-        url: /categories/spring-boot/
       - title: "Database"
         url: /categories/database/
-      - title: "API Design"
-        url: /categories/api/
-  - title: Web Development
+  - title: Web
     children:
       - title: "TypeScript"
         url: /categories/typescript/
@@ -33,5 +27,3 @@ docs:
         url: /categories/react/
       - title: "Node.js"
         url: /categories/nodejs/
-      - title: "Frontend Tools"
-        url: /categories/frontend/
