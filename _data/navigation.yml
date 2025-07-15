@@ -1,12 +1,37 @@
-# main links
 main:
-  - title: "Home"
-    url: /
-  - title: "Categories"
+  - title: "Category"
     url: /categories/
-  - title: "Flutter"
-    url: /categories/flutter/
-  - title: "Spring"
-    url: /categories/spring/
   - title: "About"
     url: /about/
+
+docs:
+  - title: App Development
+    children:
+      - title: "Flutter"
+        url: /categories/flutter/
+      - title: "Kotlin"
+        url: /categories/kotlin/
+      - title: "Mobile Architecture"
+        url: /categories/mobile-architecture/
+      - title: "UI/UX Design"
+        url: /categories/ui-ux/
+  - title: Server Development
+    children:
+      - title: "Spring Framework"
+        url: /categories/spring/
+      - title: "Spring Boot"
+        url: /categories/spring-boot/
+      - title: "Database"
+        url: /categories/database/
+      - title: "API Design"
+        url: /categories/api/
+  - title: Web Development
+    children:
+      - title: "TypeScript"
+        url: /categories/typescript/
+      - title: "React"
+        url: /categories/react/
+      - title: "Node.js"
+        url: /categories/nodejs/
+      - title: "Frontend Tools"
+        url: /categories/frontend/
