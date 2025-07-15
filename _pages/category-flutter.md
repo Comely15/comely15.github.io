@@ -3,5 +3,6 @@ title: Flutter
 layout: category
 permalink: /categories/flutter/
 category: Flutter
-author_profile: true
+entries_layout: list
+paginate: true
 ---
