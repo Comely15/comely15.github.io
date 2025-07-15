@@ -358,6 +358,11 @@ body {
 
   .archive__item-title {
     margin-top: 0;
+    font-size: 0.9rem;              // 글자 크기 줄임
+  }
+
+  .archive__item-title a[rel="permalink"] {
+    text-decoration: none !important;  // 밑줄 제거
   }
 
   .archive__subtitle {

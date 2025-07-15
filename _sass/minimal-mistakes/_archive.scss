@@ -49,6 +49,12 @@
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
+  font-size: 0.9rem;  // 폰트 크기 줄임 (필요에 따라 조절)
+
+  a[rel="permalink"] {
+    text-decoration: none !important;  // 밑줄 제거
+    position: relative;  // ::before 가 절대 위치라면 부모 위치 지정 필요
+  }
 
   a[rel="permalink"]::before {
     content: '';
