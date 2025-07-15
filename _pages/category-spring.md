@@ -1,6 +1,6 @@
 ---
-title: Flutter
+title: Spring
 layout: category
-permalink: /categories/flutter/
-category: flutter
+permalink: /categories/spring/
+category: spring
 ---
