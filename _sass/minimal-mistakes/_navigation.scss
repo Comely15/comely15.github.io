@@ -439,8 +439,8 @@
 
 .nav__list .nav__items {
   margin: 0;
-  //수정 1.25
-  font-size: 1.25rem;
+  //수정 1.25 // 1.0으로 다시 수정
+  font-size: 1.0rem;
 
   a {
     color: inherit;
@@ -514,7 +514,8 @@
 
   .nav__title {
     color: #fff;
-    font-size: $type-size-5-5;
+    /// 5에서 6으로 
+    font-size: $type-size-6;
     background: $primary-color;
     border-start-start-radius: $border-radius;
     border-start-end-radius: $border-radius;
@@ -526,6 +527,7 @@
   }
 }
 
+/// 사이드바 서브 메뉴 "Flutter, Kotlin"
 .toc__menu {
   margin: 0;
   padding: 0;
@@ -534,7 +536,7 @@
   font-size: $type-size-6;
 
   @include breakpoint($large) {
-    // 6에서 수정
+    // 6에서 수정 /// 적용안됨
     font-size: $type-size-6;
   }
 
