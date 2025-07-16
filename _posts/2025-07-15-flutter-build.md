@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Flutter_Build
+title: Flutter_Build(Flavor, Fastlane)
 date: 2025-07-15
 categories:
   - flutter
