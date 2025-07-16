@@ -24,7 +24,8 @@
   ol {
     padding: 0;
     list-style: none;
-    font-size: $type-size-6;
+    //6에서 수정
+    font-size: $type-size-5;
 
     @include breakpoint($large) {
       float: inline-end;
@@ -533,7 +534,8 @@
   font-size: $type-size-5;
 
   @include breakpoint($large) {
-    font-size: $type-size-6;
+    // 6에서 수정
+    font-size: $type-size-5;
   }
 
   a {
