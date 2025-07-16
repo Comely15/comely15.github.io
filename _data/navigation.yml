@@ -11,19 +11,19 @@ docs:
         url: /categories/flutter/
       - title: "Kotlin"
         url: /categories/kotlin/
-      - title: "UI/UX Design"
-        url: /categories/ui-ux/
-  - title: Server
-    children:
-      - title: "Spring"
-        url: /categories/spring/
-      - title: "Database"
-        url: /categories/database/
-  - title: Web
-    children:
-      - title: "TypeScript"
-        url: /categories/typescript/
-      - title: "React"
-        url: /categories/react/
-      - title: "Node.js"
-        url: /categories/nodejs/
+      # - title: "UI/UX Design"
+      #   url: /categories/ui-ux/
+  # - title: Server
+  #   children:
+  #     - title: "Spring"
+  #       url: /categories/spring/
+  #     - title: "Database"
+  #       url: /categories/database/
+  # - title: Web
+  #   children:
+  #     - title: "TypeScript"
+  #       url: /categories/typescript/
+  #     - title: "React"
+  #       url: /categories/react/
+  #     - title: "Node.js"
+  #       url: /categories/nodejs/
