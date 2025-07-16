@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 기본_Coroutine
+title: Kotlin_Coroutine
 date: 2025-07-15
 categories:
   - kotlin

@@ -4,7 +4,6 @@ title: Kotlin_Grammar
 date: 2025-07-16
 category: kotlin
 ---
-
 # 코틀린 문법
 
 ## 1. 기본 문법과 변수
