@@ -279,7 +279,8 @@
     a {
       margin: 0;
       padding: 10px 20px;
-      font-size: $type-size-4;
+      ///찾았다. nabvar 리스트
+      font-size: $type-size-5;
 
       &:hover {
         color: $masthead-link-color-hover;
@@ -436,11 +437,10 @@
     }
   }
 }
-
+/// APP, SERVER
 .nav__list .nav__items {
   margin: 0;
-  //수정 1.25 // 1.0으로 다시 수정
-  font-size: 1.0rem;
+  font-size: 1.25rem;
 
   a {
     color: inherit;
@@ -493,7 +493,7 @@
   margin: 0.5rem 0;
   padding: 0.25rem 0;
   font-family: $sans-serif-narrow;
-  font-size: $type-size-6;
+  font-size: $type-size-5-5;
   font-weight: bold;
   text-transform: uppercase;
   border-bottom: 1px solid $border-color;
@@ -515,7 +515,7 @@
   .nav__title {
     color: #fff;
     /// 5에서 6으로 
-    font-size: $type-size-6;
+    font-size: $type-size-5-5;
     background: $primary-color;
     border-start-start-radius: $border-radius;
     border-start-end-radius: $border-radius;
@@ -533,7 +533,7 @@
   padding: 0;
   width: 100%;
   list-style: none;
-  font-size: $type-size-6;
+  font-size: $type-size-5-5;
 
   @include breakpoint($large) {
     // 6에서 수정 /// 적용안됨
