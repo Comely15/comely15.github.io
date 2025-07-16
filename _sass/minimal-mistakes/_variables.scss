@@ -60,7 +60,7 @@ $handwritten: 'Segoe Print', 'Bradley Hand', Chilanka, TSCu_Comic, casual, cursi
 /* Defaults used in Minimal mistakes */
 $default-sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 $default-serif: Georgia, Times, serif;
-$default-monospace: Consolas, Monaco, "Lucida Console", monospace;
+$default-monospace: monospace, Consolas, Monaco, "Lucida Console";
 
 /* Emoji native from modern font stack - add to the end of the font-face for native emojis */
 $emoji-native: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
@@ -169,13 +169,13 @@ $code-notice-background-mix: 90% !default;
 
 ///C9BCB2
 /* syntax highlighting (base16) */
-$base00: #263238 !default;
+$base00: #d2d2d2 !default; /// 263238
 $base01: #2e3c43 !default;
 $base02: #314549 !default;
 $base03: #546e7a !default;
 $base04: #b2ccd6 !default;
-$base05: #f6ffff !default; /// eeffff
-$base06: #f6ffff !default; /// eeffff
+$base05: #232323 !default; /// eeffff , f6ffff
+$base06: #232323 !default; /// eeffff , f6ffff
 $base07: #ffffff !default;
 $base08: #f07178 !default;
 $base09: #f39376 !default; /// f78c6c
