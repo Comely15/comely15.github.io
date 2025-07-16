@@ -241,6 +241,8 @@ whitelist:
   - jekyll-gist
   - jekyll-include-cache
 
+site:
+  favicon: "/assets/images/favicon.ico"
 # Archives
 #  Type
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
