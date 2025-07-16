@@ -4,7 +4,13 @@ title: Kotlin_Channel
 date: 2025-07-16
 category: kotlin
 ---
-# Kotlin : Channel 
+**주요 구성**
+- **Channel 기본 개념** - 정의, 특징, 종류
+- **실무 패턴** - Producer-Consumer, Fan-Out, Fan-In
+- **Buffer 활용** - Buffered, Conflated Channel
+- **실무 사례** - 파일 처리, 웹 크롤링, 실시간 채팅
+- **고급 기능** - Select Expression, Pipeline
+- **성능 최적화** - Buffer 크기 조정, 에러 처리
 
 ## ➡️  Channel이란?
 
