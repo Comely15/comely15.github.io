@@ -23,7 +23,7 @@ $indent-var: 1.3em !default;
 
 /* Modern font stack */
 /* https://github.com/system-fonts/modern-font-stacks */
-/// JetBrains Mono NL
+/// JetBrains Mono
 /* Sans serif - modern font stack */
 $system-ui: system-ui, sans-serif;
 $humanist: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
@@ -60,7 +60,7 @@ $handwritten: 'Segoe Print', 'Bradley Hand', Chilanka, TSCu_Comic, casual, cursi
 /* Defaults used in Minimal mistakes */
 $default-sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 $default-serif: Georgia, Times, serif;
-$default-monospace: 'JetBrains Mono', Monaco, Consolas, "Lucida Console", monospace;
+$default-monospace: Consolas, Monaco, "Lucida Console", monospace;
 
 /* Emoji native from modern font stack - add to the end of the font-face for native emojis */
 $emoji-native: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';

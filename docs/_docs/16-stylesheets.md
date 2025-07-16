@@ -90,7 +90,7 @@ By default the theme uses [system fonts](https://medium.com/designing-medium/sys
 /* system typefaces */
 $serif      : Georgia, Times, serif;
 $sans-serif : -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-$monospace  : "JetBrains Mono", Monaco, Consolas, "Lucida Console", monospace;
+$monospace  : Monaco, Consolas, "Lucida Console", monospace;
 ```
 
 Sans-serif fonts have been used for most of the type, with serifs reserved for captions. If you wish to change this you'll need to poke around the various `SCSS` partials and modify `font-family` declarations.
