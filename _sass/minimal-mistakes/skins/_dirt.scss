@@ -14,21 +14,21 @@ $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: $text-color !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
 
-/// 코드 UI 
+/// 코드 UI
 /* dirt syntax highlighting (base16) */
-$base00: #d2d2d2 !default; /// 231e18
-$base01: #c0c0c0 !default; /// 302b25
-$base02: #48413a !default; 
+$base00: #231e18 !default;
+$base01: #302b25 !default;
+$base02: #48413a !default;
 $base03: #9d8b70 !default;
-$base04: #b4a490 !default;
-$base05: #232323 !default; /// cabcb1
-$base06: #000000 !default; /// d7c8bc
+$base04: #cdc2b5 !default; /// 주석 b4a490
+$base05: #faf2eb !default; /// cabcb1
+$base06: #d7c8bc !default;
 $base07: #e4d4c8 !default;
 $base08: #d35c5c !default;
-$base09: #ca7f32 !default; 
-$base0a: #c0940f !default; /// e0ac16
-$base0b: #b3b73b !default; /// b7ba53
-$base0c: #4bad2d !default; /// 6eb958
-$base0d: #4377d1 !default; /// 88a4d3
-$base0e: #a764e6 !default; /// bb90e2
+$base09: #ca7f32 !default;
+$base0a: #efbd26 !default; ///e0ac16
+$base0b: #b7ba53 !default;
+$base0c: #74e352 !default; /// 6eb958
+$base0d: #88a4d3 !default;
+$base0e: #c590f6 !default; /// bb90e2
 $base0f: #b49368 !default;

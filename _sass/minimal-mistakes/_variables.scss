@@ -167,23 +167,22 @@ $navicon-link-color-hover: mix(#fff, $primary-color, 75%) !default;
 $notice-background-mix: 80% !default;
 $code-notice-background-mix: 90% !default;
 
-///C9BCB2
 /* syntax highlighting (base16) */
-$base00: #d2d2d2 !default; /// 263238
+$base00: #263238 !default; 
 $base01: #2e3c43 !default;
 $base02: #314549 !default;
 $base03: #546e7a !default;
 $base04: #b2ccd6 !default;
-$base05: #232323 !default; /// eeffff , f6ffff
-$base06: #232323 !default; /// eeffff , f6ffff
+$base05: #f6ffff !default; /// eeffff , f6ffff
+$base06: #f6ffff !default; 
 $base07: #ffffff !default;
 $base08: #f07178 !default;
-$base09: #f39376 !default; /// f78c6c
-$base0a: #ffd079 !default; /// ffcb6b
+$base09: #f78c6c !default; 
+$base0a: #ffcb6b !default;
 $base0b: #c3e88d !default;
 $base0c: #89ddff !default;
-$base0d: #95b6ff !default; /// 82aaff
-$base0e: #cca3e7 !default; /// c792ea
+$base0d: #82aaff !default; 
+$base0e: #c792ea !default; 
 $base0f: #ff5370 !default;
 
 /*
